@@ -1,3 +1,4 @@
+ %   Copyright 2023 Zhaleh R.
 clc;close all; clear;
 N=51;k=3;
 [T,R]=tr(N,k);
