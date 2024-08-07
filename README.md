@@ -15,5 +15,6 @@ epsilon=1-(1/log(n+2))
 
 - Q-Learner always starts the game.
 - Tested the Q-Learner against a random player 1e3 times.
-- It wins around 99% of the time.
+
+It wins around 99% of the time.
 
