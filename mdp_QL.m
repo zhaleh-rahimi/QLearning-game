@@ -1,3 +1,4 @@
+ %   Copyright 2023 Zhaleh R.
 function [Q,V,policy]= mdp_QL(R,discount)
 n=1;k=3;N=51;
 maxIter=1e4;
