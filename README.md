@@ -7,12 +7,12 @@ We have a small finite number of states(N+1 states) and action space only includ
 
 ## Configuration:
 I trained the QLearner versus a Random player, 1e4 iterations.
-With the following parameters:
-N=51; k=3; m=2;
-Discount= 0.99;
-Alpha= 1/sqrt(n+2); n: #iterations
-epsilon=1-(1/log(n+2))
-Q-Learner always starts the game.
-I tested the Q-Learner against a random player 1e3 times.
+With the following parameters:\\
+N=51; k=3; m=2;\\
+Discount= 0.99;\\
+Alpha= 1/sqrt(n+2); n: #iterations\\
+epsilon=1-(1/log(n+2))\\
+Q-Learner always starts the game.\\
+I tested the Q-Learner against a random player 1e3 times.\\
 It wins around 99% of the times.
 
